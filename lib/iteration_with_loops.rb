@@ -8,10 +8,9 @@ src.length.times{|row|
   min = src[row][0]
   src[row].length.times{|col|
     if(src[row][col].is_a? String)
-      res+=src[row][col]
+      res+=src[row][col] + " "
     end
   }
- 
 }
 res
 end
